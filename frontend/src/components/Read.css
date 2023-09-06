@@ -1,0 +1,36 @@
+/* Read.css */
+
+/* Style for the container */
+.container {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  /* Style for the card */
+  .card {
+    width: 100%;
+    margin: 10px;
+    display: inline-block;
+  }
+  
+  /* Style for the card title */
+  .card-title {
+    font-size: 1.25rem;
+  }
+  
+  /* Style for the card subtitle */
+  .card-subtitle {
+    color: #888;
+  }
+  
+  /* Style for the Edit link */
+  .card-link.edit {
+    color: green;
+    margin-right: 10px;
+  }
+  
+  /* Style for the Delete link */
+  .card-link.delete {
+    color: red;
+  }
+  
