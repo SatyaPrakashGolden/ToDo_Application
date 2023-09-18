@@ -6,7 +6,6 @@ dotenv.config();
 const useRout=require('./routes/userRoute.js')
 const cors=require("cors");
 app.use(cors());
-// Connect to MongoDB using the provided URL from the environment variables
 mongoose.connect(process.env.URL, {
   useNewUrlParser: true,
   useUnifiedTopology: true,
@@ -18,7 +17,6 @@ mongoose.connect(process.env.URL, {
     console.error("Error connecting to MongoDB:", error);
   });
 
-// Middleware to parse JSON in request bodies
 app.use(express.json());
 
 const port = process.env.PORT || 5000;
